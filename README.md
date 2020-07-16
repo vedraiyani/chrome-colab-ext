@@ -1,9 +1,7 @@
 # chrome-colab-ext
-If github ipython notebook page is open it will automatically add ![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg) button as shown in the image below and if extension is pinned it will be yellow as per the below image. On click of the ![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg) button, colab with given ipython notebook will be open.
+If github ipython notebook page is open it will automatically add ![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg) button as shown in the image below. On click of the ![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg) button, colab with given ipython notebook will be open.
 ![Load Unpacked](doc/working.png)
 
-If tab does't meet the above requirement it won't enable the extension and display the grayed icon if it's pinned as displayed in the image.
-![Load Unpacked](doc/not_working.png)
 
 > ### Note:
 > We haven't uploaded our extention to chrome store.
