@@ -2,7 +2,7 @@
     "name": "Github Colabify",
     "description": "Adds colab button on github ipython page",
     "version": "1.0.0",
-    "permissions": ["tabs", "declarativeContent","https://github.com/"],
+    "permissions": ["tabs", "https://github.com/"],
     "background": {
       "scripts": ["background.js"],
       "persistent": false

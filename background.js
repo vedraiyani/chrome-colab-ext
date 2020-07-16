@@ -1,20 +1,3 @@
-chrome.runtime.onInstalled.addListener(function() {
-  chrome.declarativeContent.onPageChanged.removeRules(undefined, function() {
-    chrome.declarativeContent.onPageChanged.addRules([{
-      conditions: [new chrome.declarativeContent.PageStateMatcher({
-        pageUrl: {hostEquals: 'github.com'},
-      })
-      ],
-          actions: [new chrome.declarativeContent.ShowPageAction()]
-    }]);
-  });
-});
-
-// chrome.tabs.onReplaced.addListener((activeInfo) => {  
-//   // alert('onReplaced')
-//   addColabBtn()
-// })
-
 chrome.tabs.onUpdated.addListener((activeInfo) => {  
   // alert('onUpdated')
   addColabBtn()
